@@ -1,0 +1,9 @@
+go run ./cmd/main.go --name=customapp --debug
+
+APP_PORT=9090 go run ./cmd/main.go --name=customapp --debug
+
+
+Config loaded successfully
+Port: 9090
+Name: customapp
+Debug: true
